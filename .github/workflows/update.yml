@@ -20,6 +20,6 @@ jobs:
 
     - name: Merge Upstream Changes
       run: |
-        git merge upstream/main # or upstream/master
+        git merge upstream/main --allow-unrelated-histories # or upstream/master
         git push
 
